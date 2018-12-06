@@ -52,10 +52,6 @@ fn main() {
              let (found_frequency,current_frequency) = calculation_frequency(_current_frequency,&mut _already_existing,&lines);
              _found_frequency = found_frequency;
              _current_frequency = current_frequency;
-             println!("{}", _found_frequency); 
          }
-         
-         println!("{}", _already_existing.len());    
-         println!("{}", _current_frequency);    
     }
 }
